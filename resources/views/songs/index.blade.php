@@ -25,7 +25,7 @@
 
                   <a class="btn btn-sm btn-outline-secondary" href="/songs/{{$song->id}}">Show</a>
                   <a class="btn btn-sm btn-outline-secondary" href="/songs/{{$song->id}}/edit">Edit</a>
-                  <button type="submit" title="delete" class="btn btn-sm btn-outline-secondary" >Delete</button>
+                  <button type="submit" title="delete" class="btn btn-sm btn-outline-danger" >Delete</button>
                 </form>
               </div>
                 <small class="text-muted">9 mins</small>
